@@ -43,7 +43,7 @@
           <h4>about</h4>
           <ul>
             {% if site.author.email %}
-            <li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
+            <li class="contact"><a href="mailto:{{ site.author.email }}"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></a></li>
             {% endif %}
             {% if site.author.github %}
             <li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
@@ -53,6 +53,9 @@
             {% endif %}
             {% if site.author.facebook %}
             <li class="facebook"><a href="http://facebook.com/{{ site.author.facebook }}/" rel="me">facebook.com/{{ site.author.facebook }}</a></li>
+            {% endif %}
+            {% if site.author.linkedin %}
+            <li class="linkedin"><a href="http://linkedin.com/in/{{ site.author.linkedin }}/" rel="me">linkedin.com/in/{{ site.author.linkedin }}</a></li>
             {% endif %}
             {% if site.author.flickr %}
             <li class="flickr"><a href="http://flickr.com/{{ site.author.flickr }}/" rel="me">flickr.com/{{ site.author.flickr }}</a></li>
