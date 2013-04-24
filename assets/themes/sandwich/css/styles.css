@@ -263,16 +263,16 @@ header li {
 	/*background: #AF0011;
 	background: -moz-linear-gradient(top, #ff0000 0%, #820000 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #fff273 0%,#a69700 100%);
+  background: -webkit-linear-gradient(top, #ff0000 0%,#820000 100%);
   background: -o-linear-gradient(top, #ff0000 0%,#820000 100%);
   background: -ms-linear-gradient(top, #ff0000 0%,#820000 100%);
-  background: linear-gradient(top, #fff273 0%,#a69700 100%);*/
+  background: linear-gradient(top, #ff0000 0%,#820000 100%);*/
   
 	border-radius:4px;
   border:1px solid #007000;
 
 	/*-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);*/	
+	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);*/
 	
 }
 
